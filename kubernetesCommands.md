@@ -1,0 +1,4 @@
+minikube start
+minikube stop
+minikube dashboard
+
