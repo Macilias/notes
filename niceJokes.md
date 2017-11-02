@@ -1,0 +1,2 @@
+- Why are Halloween and Christmas really just the same thing?
+-- Because OCT(31) = DEC(25)
