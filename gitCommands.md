@@ -6,7 +6,6 @@
 - git checkout master
 
 ## Init Repo:
-
 - init: git init
 - add all: git add -A
 - commit all: git commit -am „commit message“
@@ -15,6 +14,11 @@
 ## Reset Git:
 - rm -rf .git
 - git init
+
+## Stash / Patch diff and apply the Patch
+- create diff: git diff origin/branchname > changes.patch
+- ggf reset branch: git reset --hard origin/branchname
+- apply diff: git apply changes.patch
 
 ## Ticket bearbeiten:
 - switch to branch: git checkout „feature_branch“
