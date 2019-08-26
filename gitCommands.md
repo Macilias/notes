@@ -59,6 +59,9 @@
 ### to find all branches that belong to me, use the script:
 #### find-my-branches.sh mniemczyk
 
+### to delete all branches beside master and current
+git branch | grep -v "master" | grep -v ^* | xargs git branch -D 
+
 #### to revert a commit:
 
 - git revert e793a613a06aeacac2d784616b849bca0b8f9a95 (if last thats the most upper commit)
